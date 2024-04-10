@@ -6,8 +6,8 @@
     },
     "styles": {
         "color":{
-            "background": "#808080",
-            "text": "#333"
+            "background": "#ffffff",
+            "text": "#000000"
         },
         "typography": {
             "fontFamily": "PT Serif', sans-serif",
@@ -29,12 +29,18 @@
 				}
 			}
         }
+
     },
     "templateParts": [
 		{
 			"area": "header",
 			"name": "header",
 			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
 		}
     ]
 }
