@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+    "settings": {
+		"appearanceTools": true
+    },
+    "styles": {
+        "color":{
+            "background": "#808080",
+            "text": "#333"
+        },
+        "typography": {
+            "fontFamily": "PT Serif', sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "0em",
+            "lineHeight": "1.5"
+        },
+        "elements": {
+            "heading": {
+				"color": {
+					"text": "#000000"
+				},
+				"typography": {
+					"fontFamily": "sans-serif",
+					"fontWeight": "400",
+					"lineHeight": "1.2"
+				}
+			}
+        }
+    },
+    "templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		}
+    ]
+}
